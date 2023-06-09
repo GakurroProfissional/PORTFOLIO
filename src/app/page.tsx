@@ -49,7 +49,7 @@ export default function Home() {
                   <li className="list-group-item">Código de Defesa do Consumidor - C.D.C.</li>
                   <li className="list-group-item">Plano Distrital de Políticas para Mulheres - P.D.P.M.</li>
                   <li className="list-group-item">Lei Geral de Proteção de Dados - LGPD</li>
-                  <li className="bg-danger">LEMBRAR DE CONTINUAR PREENCHENDO</li>
+                  
                   <li className="list-group-item">LODF</li>
                 </ol>
               </li>
@@ -74,7 +74,7 @@ export default function Home() {
                   <li className="list-group-item">Governança Corporativa - G.C.</li>
                   <li className="list-group-item">Compliance</li>
                   <li className="list-group-item">Inovação</li>
-                  <li className="bg-danger">LEMBRAR DE CONTINUAR PREENCHENDO</li>
+                  
                 </ol>
               </li>
             </ul>
