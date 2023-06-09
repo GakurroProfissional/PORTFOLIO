@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Galada&family=Lemon&family=Lily+Script+One&family=Notable&family=Oregano&family=Pirata+One&family=Sail&family=UnifrakturCook:wght@700&display=swap');
+
+/*fonte para h1 ate h6*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+
+/*font para ul li p */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@500&display=swap');
+
+
+:root {
+  --primary-color: #0a1128;
+  --white-color: #ffffff;
+  --light-gray-color: #3d3d3d9d;
+  --secondary-color: crimson;
+  --gap: 3rem;
+
+
+  --fontOne: 'Angkor', cursive;
+  --fontTwo: 'Galada', cursive;
+  --fontThree: 'Lily Script One', cursive;
+  --fontFour: 'Lemon', cursive;
+  --fontFive: 'Notable', sans-serif;
+  --fontSix: 'Oregano', cursive;
+  --fontSeven: 'Pirata One', cursive;
+  --fontEight: 'Sail', cursive;
+  --fontNine: 'UnifrakturCook', cursive;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fontFive);
+}
+
+.spacingMenu {
+  margin-top: 70px;
+}
+
+.position {
+  position: relative;
+}
+
+.bgMain {
+  z-index: -1000;
+
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+
+.colMeu{
+  transition: all ease-in-out 500ms;
+
+}
+
+.colMeu :hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+
+
+.font2 {
+  font-family: var(--fontTwo);
+}
+
+.font3 {
+  font-family: var(--fontThree);
+}
+
+.font4 {
+  font-family: var(--fontFour);
+}
+
+.font5 {
+  font-family: var(--fontFive);
+}
+
+.font6 {
+  font-family: var(--fontSix);
+}
+
+.font7 {
+  font-family: var(--fontSeven);
+}
+
+.font8 {
+  font-family: var(--fontEight);
+}
+
+.font9 {
+  font-family: var(--fontNine);
+}
+
